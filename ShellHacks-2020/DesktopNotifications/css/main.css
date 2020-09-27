@@ -1,0 +1,48 @@
+body{
+  background-color: #262626 !important;
+  color: #fff;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Inconsolata-Light';
+}
+
+.timer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.timer button {
+    font-family: 'Inconsolata-ExtraLight';
+    font-size: 1em;
+    padding: 15px;
+}
+
+@font-face {
+    font-family: 'Inconsolata-Light';
+    src: url('../fonts/Inconsolata-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Inconsolata-ExtraLight';
+    src: url('../fonts/Inconsolata-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inconsolata-Regular';
+    src: url('../fonts/Inconsolata-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inconsolata-SemiBold';
+    src: url('../fonts/Inconsolata-SemiBold.ttf') format('truetype');
+}
