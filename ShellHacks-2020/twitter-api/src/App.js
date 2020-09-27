@@ -16,7 +16,7 @@ function App() {
       method: 'get',
       url: 'https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2',
       headers: {
-        'Authorization': 'OAuth oauth_consumer_key="qade36E1nYzf4DbL4Ic8C1VA1",oauth_token="2419804578-sdUuds1cIg0KhSDbRY8N0l43ZJ88FKKNVl3IbzV",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1601170460",oauth_nonce="yCsz7tJekQP",oauth_version="1.0",oauth_signature="%2B%2FOlSquKZabQdHpNXk5E8nuQ%2Fro%3D"',
+        'Authorization': '',
         'Cookie': 'personalization_id="v1_v6V8yNl4ptDR1Pw5xpOYaw=="; guest_id=v1%3A160114134711951369; lang=en'
       }
     };
